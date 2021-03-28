@@ -1,7 +1,5 @@
-# RepetitionCounting
-
-This project is the official repository of paper [Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096), authored
-by Yunhua Zhang, Ling Shao, Cees G.M. Snoek. 
+# Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096)
+Yunhua Zhang, Ling Shao, Cees G.M. Snoek. 
 
 ## Demo video
 
