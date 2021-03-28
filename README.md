@@ -1,4 +1,4 @@
-# Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096)
+# [Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096)
 Yunhua Zhang, Ling Shao, Cees G.M. Snoek. 
 
 ## Demo video
