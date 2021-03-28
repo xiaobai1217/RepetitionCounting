@@ -1,4 +1,5 @@
-# [Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096) (CVPR 2021)
+# [Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096) 
+CVPR 2021
 Yunhua Zhang, Ling Shao, Cees G.M. Snoek 
 
 ## Demo video
