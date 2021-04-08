@@ -1,7 +1,7 @@
 # [Repetitive Activity Counting by Sight and Sound](https://arxiv.org/abs/2103.13096) (CVPR 2021)  
 Yunhua Zhang, Ling Shao, Cees G.M. Snoek 
 
-<img width="600" alt="Screenshot 2021-04-09 at 00 27 31" src="https://user-images.githubusercontent.com/22721775/114104033-70e7fe80-98ca-11eb-9541-7268fc683ad9.png">
+<img width="400" alt="Screenshot 2021-04-09 at 00 27 31" src="https://user-images.githubusercontent.com/22721775/114104033-70e7fe80-98ca-11eb-9541-7268fc683ad9.png">
 
 ## Demo video
 
