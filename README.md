@@ -10,7 +10,15 @@ Yunhua Zhang, Ling Shao, Cees G.M. Snoek
 
 
 ## Demo code
-Coming soon.
+
+### Requirements
+* Python 3.7.4
+* PyTorch 1.4.0
+* librosa 0.8.0
+* opencv 3.4.2
+* tqdm 4.54.1
+
+### Run Demo
 
 
 ## Datasets
