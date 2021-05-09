@@ -31,7 +31,7 @@ Yunhua Zhang, Ling Shao, Cees G.M. Snoek
 * The "sync_batchnorm" folder comes from this [repository](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch). 
 * As cited in the paper, the regression function for counting uses the technique proposed in this paper "Deep expectation of real and apparent age from a single image without facial landmarks". 
 * Some variables with "sr" in the names (sample rate) are for the temporal stride decision module. 
-* The performance of the released model on Countix-AV and Extreme Countix-AV is a bit higher than that reported in the paper. 
+* The performance of the released model on Countix-AV and Extreme Countix-AV is a bit higher than that reported in the paper, due to some hyperparameter adjustments. 
 
 ## Datasets
 
