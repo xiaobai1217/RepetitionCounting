@@ -25,7 +25,7 @@ Yunhua Zhang, Ling Shao, Cees G.M. Snoek
 * To run the demo code:
 ```python run_demo.py```
 
-## Some Illustrations
+### Some Illustrations
 
 * The "VGGSound" folder is modified from their original [repository](https://github.com/hche11/VGGSound). 
 * The "sync_batchnorm" folder comes from this [repository](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch). 
