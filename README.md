@@ -40,3 +40,6 @@ We provide the train, validation, and test sets of Countix-AV dataset in Countix
 
 ### Extreme Countix-AV
 The dataset can be downloaded at this [link](https://drive.google.com/file/d/1eKYbN_fXetv6Dw_ks8eNeNkErGvrsDC6/view?usp=sharing)
+
+## Contact
+If you have any problems with the code, feel free to send an email to me: y.zhang9@uva.nl
