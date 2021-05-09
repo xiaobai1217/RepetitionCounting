@@ -20,6 +20,10 @@ Yunhua Zhang, Ling Shao, Cees G.M. Snoek
 
 ### Run Demo
 
+* We provide an example video and the corresponding audio file with scale variation challenge for the demo code. 
+* The pretrained checkpoints of our model can be downloaded at this [link](https://drive.google.com/file/d/1y7j4KRpnGDttGseIXMpXz7O1speEeIJD/view?usp=sharing). 
+* To run the demo code:
+``python run_demo.py""
 
 ## Datasets
 
