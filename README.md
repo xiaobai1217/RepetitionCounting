@@ -38,7 +38,7 @@ import moviepy.editor as mp
 clip = mp.VideoFileClip(path_to_video).subclip(start_time, end_time)
 clip.audio.write_audiofile(path_for_save)
 ```
-If you want our extracted audio files, pls create an issue with your email address. 
+If you want our extracted audio files, pls send me an email or create an issue with your email address. 
 
 ## Datasets
 
