@@ -23,7 +23,7 @@ Yunhua Zhang, Ling Shao, Cees G.M. Snoek
 * We provide an example video and the corresponding audio file with scale variation challenge for the demo code. 
 * The "VGGSound" folder is modified from their original [repository](https://github.com/hche11/VGGSound). 
 * The "sync_batchnorm" folder comes from this [repository](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch). 
-* As cited in the paper, the regression function uses the technique proposed in this paper "Deep expectation of real and apparent age from a single image without facial landmarks". 
+* As cited in the paper, the regression function for counting uses the technique proposed in this paper "Deep expectation of real and apparent age from a single image without facial landmarks". 
 * The pretrained checkpoints of our model can be downloaded at this [link](https://drive.google.com/file/d/1y7j4KRpnGDttGseIXMpXz7O1speEeIJD/view?usp=sharing). 
 * To run the demo code:
 ```python run_demo.py```
