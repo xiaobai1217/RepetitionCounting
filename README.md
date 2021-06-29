@@ -40,6 +40,14 @@ clip.audio.write_audiofile(path_for_save)
 ```
 If you want our extracted audio files, pls send me an email or create an issue with your email address. 
 
+### Training on Countix & Countix-AV
+For the following code, we train the modules separately so two NVIDIA 1080Ti GPUs are enough for the training. The visual model is trained on Countix, and the audio model and the cross-modal modules are trained on Countix-AV. The resulted overall model is expected to test on Countix-AV. To test on the Countix dataset, the reliablity estimation should be retrained on the Countix dataset. For our model, the hyparameters influence the performance to some extent, see the supplementary material for more details. To be specific, we try the number of branches from 20 to 50 to find the best one and for the margin for the temporal stride decision module, we try from 1.0 to 3.0. 
+* Train the visual counting model
+* Train the temporal stride decision module based on the visual modality only
+* Train the temporal stride decision module based on sight and sound
+* Train the audio counting model
+* Train the reliability estimation module
+
 ## Datasets
 
 ### Countix-AV
