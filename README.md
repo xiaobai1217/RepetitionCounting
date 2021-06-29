@@ -49,7 +49,7 @@ For the following code, we train the modules separately so two NVIDIA 1080Ti GPU
 * Train the reliability estimation module
 
 ### Some Tips for further improvement
-* Here we use the ResNet (2+1)D model and replacing it with a better model, e.g. mmaction2, should obtain a better performance. 
+* Here we use the ResNet (2+1)D model and replacing it with a better model, e.g. [mmaction2](https://mmaction2.readthedocs.io/en/latest/recognition_models.html), should obtain a better performance. 
 * The code provided by https://github.com/Xiaodomgdomg/Deep-Temporal-Repetition-Counting is helpful. 
 
 ## Datasets
