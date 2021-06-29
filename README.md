@@ -61,7 +61,7 @@ python train_sr_audio.py
 ```
 * Train the audio counting model
 ```
-python
+python train_audio.py
 ```
 * Train the reliability estimation module
 ```
