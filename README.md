@@ -43,10 +43,30 @@ If you want our extracted audio files, pls send me an email or create an issue w
 ### Training on Countix & Countix-AV
 For the following code, we train the modules separately so two NVIDIA 1080Ti GPUs are enough for the training. The visual model is trained on Countix, and the audio model and the cross-modal modules are trained on Countix-AV. The resulted overall model is expected to test on Countix-AV. To test on the Countix dataset, the reliablity estimation should be retrained on the Countix dataset. For our model, the hyparameters influence the performance to some extent, see the supplementary material for more details. To be specific, we try the number of branches from 20 to 50 to find the best one and for the margin for the temporal stride decision module, we try from 1.0 to 3.0. 
 * Train the visual counting model
+```
+python train.py
+```
+Then, generate the counting predictions with the model of the sample rate from 1 to 7. 
+After that, run this script to get the csv file for training the temporal stride decision module:
+```
+python generate_csv4sr.py
+```
 * Train the temporal stride decision module based on the visual modality only
+```
+python train_sr.py
+```
 * Train the temporal stride decision module based on sight and sound
+```
+python train_sr_audio.py
+```
 * Train the audio counting model
+```
+python
+```
 * Train the reliability estimation module
+```
+python train_conf.py
+```
 
 ### Some Tips for further improvement
 * Here we use the ResNet (2+1)D model and replacing it with a better model, e.g. [mmaction2](https://mmaction2.readthedocs.io/en/latest/recognition_models.html), should obtain a better performance. 
