@@ -43,16 +43,11 @@ class Countix(torch.utils.data.Dataset):
                       }
 
         #name_list[name_id], start_list[name_id], end_list[name_id], start_crop_list[name_id], end_crop_list[name_id],count_list[name_id]chiseling wood
-        sample_rates = []
         neg_list = []
         with open("countix_"+split+"_examples_clean.csv") as f:
             f_csv = csv.reader(f)
             for i, row in enumerate(f_csv):
                 name_list.append(row[0])
-                sample_rate = float(row[-1])
-                sample_rates.append(sample_rate)
-                if sample_rate > 1:
-                    neg_list.append(i)
                 if row[-1].startswith("swimming"):
                     class_list.append(15)
                 try:
@@ -73,8 +68,6 @@ class Countix(torch.utils.data.Dataset):
         self.end_crop_list = end_crop_list
         self.split = split
         self.class_list = class_list
-        self.sample_rates = sample_rates
-        self.neg_list = neg_list
 
     def __getitem__(self, index):
 
