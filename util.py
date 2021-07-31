@@ -81,7 +81,7 @@ def get_audio_count(spectrogram_ori, a_model, a_tensor, threshold=16, audio_bran
     outputs11 = outputs11.item()
     return outputs11
 
-def get_visual_count(video1, sample_rate, model, visual_branch_num=41):
+def get_visual_count(video1, sample_rate, model,  tensor, visual_branch_num=41):
     video_list2 = None
     if video1.shape[0] < sample_rate*64:
         tmp1 = np.zeros((sample_rate*64-video1.shape[0], 112,112,3))

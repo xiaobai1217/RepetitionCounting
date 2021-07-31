@@ -84,7 +84,7 @@ spectrogram_ori = np.divide(spectrogram - mean, std + 1e-9)
 #--------------------------------------------------------------------------------------------
 sample_rate = get_sr(spectrogram_ori, video1, model, audio_model, a_sr_model, v_sr_model)
 outputs11 = get_audio_count(spectrogram_ori, audio_model,audio_tensor)
-outputs = get_visual_count(video1, sample_rate, model)
+outputs = get_visual_count(video1, sample_rate, model, tensor)
 conf = get_conf(spectrogram_ori, outputs11, sample_rate, video1, audio_model, model, conf_model)
 outputs = conf*outputs + (1-conf)*outputs11
 outputs = np.round(outputs)
